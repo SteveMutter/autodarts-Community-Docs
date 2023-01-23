@@ -21,3 +21,11 @@ sequence is if the light surround shining directly into the webcam (LED flickeri
 + Use a spirit level to check if your wall and your dartboard are mounted correctly in the vertical, diagonal and horizontal directions
 
 ![](https://github.com/SteveMutter/autodarts-Community-Docs/blob/main/source/image1.png)
+
+## Calibrate Mechanical
+
+![](https://github.com/SteveMutter/autodarts-Community-Docs/blob/main/source/image2.png)
+
+## Calibrate the Software
+
+![](https://github.com/SteveMutter/autodarts-Community-Docs/blob/main/source/image3.png)
