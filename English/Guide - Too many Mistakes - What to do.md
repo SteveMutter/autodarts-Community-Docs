@@ -19,3 +19,5 @@ sequence is if the light surround shining directly into the webcam (LED flickeri
 + For higher accuracy sometimes helps if you avoid dark coloured points, barrels and shafts
 
 + Use a spirit level to check if your wall and your dartboard are mounted correctly in the vertical, diagonal and horizontal directions
+
+![](https://github.com/SteveMutter/autodarts-Community-Docs/blob/main/source/image1.png)
