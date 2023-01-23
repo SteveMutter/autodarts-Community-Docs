@@ -18,8 +18,8 @@ details here are the raw numbers: 1440p is twice as many pixels as 1080p and 4k 
 many pixels as 1440p so the fps will change respectivley. (This means 4k is 4 timmes as
 many pixels as 1080p so 1080p is 4x higher fps ex: 30fps -> 120fps).
 
-For sure. This information is from a „Gaming-Portal“. But here you understand how mighty a
-big resolution can be for a low performance hardware.
+**For sure. This information is from a „Gaming-Portal“. But here you understand how mighty a
+big resolution can be for a low performance hardware.**
 
 ###### Does lowering brightness increase FPS?
 
