@@ -50,7 +50,7 @@ guvcview -z -d /dev/video4 -p /home/Documents/video4
 exit0
 ```
 
-> parameter "-z" öffnet guvcview im GUI Modus
+> parameter "-z" öffnet guvcview im GUI Modus ohne Webcamfenster
 
 > parameter "-d" definiert das Gerät
 
@@ -70,9 +70,8 @@ sh /home/autodarts/Documents/guvcviewstart.sh
 
 guvcview sollte sich 3x im GUI Modus öffnen / es wird kein Livebild der Kameras angezeigt
 
-Nun kannst du deine Webcams einstellen. Die Ansicht sollte nun über den Live View im Board Manager möglich sein
+Nun kannst du deine Webcams einstellen. Die Ansicht sollte nun über den Live View im Board Manager möglich sein / Speichern der Profile nicht vergessen
 
-+ Wenn deine Einstellungen perfekt passen kannst du ganz einfach den Parameter "-z" aus dem Script entfernen dann wird guvcview ausgeführt aber ohne die 3 GUI Fenster. Wenn du etwas ändern möchtest dann kannst du einfach den Parameter "-z" wieder hinzufügen. Profil speichern nicht vergessen!
 
 ###### Das Script beim Start ausführen
 
