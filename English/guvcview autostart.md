@@ -1,13 +1,13 @@
-## Configure ans autostart guvcview
+## Configure and autostart guvcview
 
 ###### Create Profiles and save them
 
 > Requirements:
 > Running guvcview without any Issues
 
-+ First of all we configure guvcview
+First of all we configure guvcview
 
-Start guvcview in Guimode via Terminal:
++ Start guvcview in Guimode via Terminal:
 
 ```
 guvcview
@@ -29,34 +29,36 @@ guvcview should open in GUI mode
 
 ###### Building script
 
-> Now we build a script that launches guvcview for each camera with it's profile
+Now we build a script that launches guvcview for each camera with it's profile
 
-+ We build the script via Terminal so open up a Terminal window
+We build the script via Terminal so open up a Terminal window
 
 
-> Now we create the script via nano editor and store it in Documents folder
+Now we create the script via nano editor and store it in Documents folder
 
 ```
 sudo nano /home/autodarts/Documents/guvcviewstart.sh
 ```
 > note: in this case "autodarts" is the user folder / change this with your local user
 
-> within the script we type following
+ within the script we type following
 ```
 #!/bin/sh
 guvcview -z -d /dev/video0 -p /home/Documents/video0 &
 guvcview -z -d /dev/video2 -p /home/Documents/video2 &
 guvcview -z -d /dev/video4 -p /home/Documents/video4
 exit0
-
 ```
+
 > parameter "-z" opens guvcview in GUI Mode
+
 > parameter "-d" calls the unique device
+
 > parameter "-p" calls the profile for the device
 
-> We store the file by hitting "Ctrl + X" / "Y" / "Return"
++ We store the file by hitting "Ctrl + X" / "Y" / "Return"
 
-> Now we make the file executable
++ Now we make the file executable
 ```
 sudo chmod -x /home/autodarts/Documents/guvcviewstart.sh
 ```
@@ -74,15 +76,15 @@ Now you can configure your cameras via this 3 windows, you should see the change
 
 ###### start the script on boot
 
-+ There are planty of ways to autstart sh scripts. We use the LXDE way
+There are planty of ways to autstart sh scripts. We use the LXDE way
 
-> Open up a terminal window and open the autostart file
+ Open up a terminal window and open the autostart file
 
 ```
 sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 ```
 
-> Add the following to the end of the file
+ Add the following to the end of the file
 ```
 @/home/autodarts/Documents/guvcviewstart.sh
 ```
