@@ -50,7 +50,7 @@ guvcview -z -d /dev/video4 -p /home/Documents/video4
 exit0
 ```
 
-> parameter "-z" opens guvcview in GUI Mode
+> parameter "-z" opens guvcview in GUI Mode without webcam view
 
 > parameter "-d" calls the unique device
 
@@ -72,7 +72,6 @@ guvcview should open 3 windows one for each cam / without view of webcam
 
 Now you can configure your cameras via this 3 windows, you should see the changes directly in Board Manager Live View
 
-+ If your Configuration fits for your needs you can remove "-z" parameter in the Script so the GUI won't open but guvcview runs with your profiles in the Background. For changes your simply add the "-z" parameter and the GUI will load again.
 
 ###### start the script on boot
 
