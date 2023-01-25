@@ -26,8 +26,7 @@ big resolution can be for a low performance hardware.**
 Decreasing the brightness to 0 (or less more) will remove lag and increase fps. On desktops the
 graphics card controls the brightness and contrast so there is no issue there. So if you have a low end
 computer put graphics brightness to 0 (you have to try what`s best for you). Not to confuse that with
-the display brightness, those are 2 different brightness. And lower the contrast us much us possible,
-the colors…
+the display brightness, those are 2 different brightness. And lower the contrast us much us possible.
 
 ###### How to Increase the FPS on Your Webcam
 
