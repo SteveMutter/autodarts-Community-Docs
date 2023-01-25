@@ -17,12 +17,12 @@
 
 Raspberry Pi OS Desktop (Legacy) / Debian Buster / 32Bit
 ```
-https://shorturl.at/qSUV6
+https://tinyurl.com/2o78mrff
 ```
 
 Raspberry Pi OS Desktop / Debian Bullseye / 64Bit
 ```
-https://shorturl.at/lnrDI
+https://tinyurl.com/2k6zab9c
 ```
 
 
