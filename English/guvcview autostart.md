@@ -74,7 +74,7 @@ guvcview should open 3 windows one for each cam / without view of webcam
 Now you can configure your cameras via this 3 windows, you should see the changes directly in Board Manager Live View
 
 
-###### start the script on boot ( Raspberry Pi 32bit Legacy )
+## start the script on boot ( Raspberry Pi 32bit Legacy )
 
 There are planty of ways to autstart sh scripts. We use the LXDE way
 
@@ -98,7 +98,7 @@ sudo reboot now
 ```
 
 
-###### start the script on boot (Raspberry Pi 64bit)
+## start the script on boot (Raspberry Pi 64bit)
 
 Make new directory
 ```
