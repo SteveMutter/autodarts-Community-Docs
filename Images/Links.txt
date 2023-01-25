@@ -1,2 +1,0 @@
-RPi OS Desktop Legacy 32bit:
-RPi OS Desktop 64bit:
