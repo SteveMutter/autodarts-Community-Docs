@@ -9,7 +9,7 @@ and + to zoom in to board to make it bigger. After set take a look. Sometimes it
 surround or anything. Screws are the best thing for fixing it strong. Nothing should move during the game. Number
 ring also sometimes produce vibrations.
 
-+ The LED / light surround should also be stable enough mounted. Take a look how mutch KALVIN the LED stripe has.
++ The LED / light surround should also be stable enough mounted. Take a look how much KALVIN the LED stripe has.
 To less and to mutch both things are not good. Normally original target Stripe has 120 LED with 6000K. A Dimmer
 would be good if you are not sure.
 
