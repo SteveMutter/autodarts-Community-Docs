@@ -1,11 +1,17 @@
 ## Hier findest du vorkonfigurierte Images für den Raspberry Pi
 
 [x] autodarts vorinstalliert
+
 [x] guvcview vorinstalliert
+
 [x] VNC aktiviert
+
 [x] Startup script um guvcview automatisch zu starten und Profile zu laden
+
 [x] Offnet den Chromium Browser im Vollbildmodus / htts://autodarts.io
+
 [x] Benutzername/Passwort für alle Images autodarts/autodarts
+
 
 ## Download
 
