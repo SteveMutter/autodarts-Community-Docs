@@ -22,7 +22,7 @@ https://shorturl.at/qSUV6
 
 Raspberry Pi OS Desktop / Debian Bullseye / 64Bit
 ```
-
+https://shorturl.at/lnrDI
 ```
 
 
