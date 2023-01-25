@@ -74,12 +74,11 @@ guvcview sollte sich 3x im GUI Modus öffnen / es wird kein Livebild der Kameras
 Nun kannst du deine Webcams einstellen. Die Ansicht sollte nun über den Live View im Board Manager möglich sein / Speichern der Profile nicht vergessen
 
 
-###### Das Script beim Start ausführen
+###### Das Script beim Start ausführen (Raspberry Pi 32bit Legacy)
 
 Es gibt viele Wege um das Script beim Start auszuführen. Wir nehmen den Weg über LXDE
 
 Öffne die Autostart Datei
-
 ```
 sudo nano /etc/xdg/lxsession/LXDE-pi/autostart
 ```
@@ -97,4 +96,38 @@ Nun können wir alles testen indem wir den Raspberry neustarten
 sudo reboot now
 ```
 
+###### Das Script beim Start ausführen (Raspberry Pi 64bit)
 
+Ein neues Verzeichnis erstellen
+```
+sudo mkdir /home/autodarts/.config/autostart
+```
+
+Eine neue Datei in diesem Verzeichnis anlegen
+```
+sudo nano /home/autodarts/.config/autostart/autostart.desktop
+```
+
+In diese Datei schreiben wir folgendes:
+```
+#!usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Autorun
+Type=Application
+Exec=/bin/sh /home/autodarts/Documents/scripts/autostart.sh &
+Terminal=false
+```
+
+Die Berechtigungen dieser Datei anpassen
+```
+sudo chown autodarts /home/autodarts/.config/autostart/autostart.desktop
+sudo chgrp autodarts /home/autodarts/.config/autostart/autostart.desktop
+sudo chmod 744 /home/autodarts/.config/autostart/autostart.desktop
+```
+
+Nun können wir alles testen indem wir den Raspberry neustarten
+
+```
+sudo reboot now
+```
