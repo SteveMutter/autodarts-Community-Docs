@@ -74,7 +74,7 @@ guvcview sollte sich 3x im GUI Modus öffnen / es wird kein Livebild der Kameras
 Nun kannst du deine Webcams einstellen. Die Ansicht sollte nun über den Live View im Board Manager möglich sein / Speichern der Profile nicht vergessen
 
 
-###### Das Script beim Start ausführen (Raspberry Pi 32bit Legacy)
+## Das Script beim Start ausführen (Raspberry Pi 32bit Legacy)
 
 Es gibt viele Wege um das Script beim Start auszuführen. Wir nehmen den Weg über LXDE
 
@@ -96,7 +96,7 @@ Nun können wir alles testen indem wir den Raspberry neustarten
 sudo reboot now
 ```
 
-###### Das Script beim Start ausführen (Raspberry Pi 64bit)
+## Das Script beim Start ausführen (Raspberry Pi 64bit)
 
 Ein neues Verzeichnis erstellen
 ```
