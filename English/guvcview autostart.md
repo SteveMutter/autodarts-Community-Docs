@@ -74,7 +74,7 @@ guvcview should open 3 windows one for each cam / without view of webcam
 Now you can configure your cameras via this 3 windows, you should see the changes directly in Board Manager Live View
 
 
-###### start the script on boot
+###### start the script on boot ( Raspberry Pi 32bit Legacy )
 
 There are planty of ways to autstart sh scripts. We use the LXDE way
 
@@ -98,3 +98,38 @@ sudo reboot now
 ```
 
 
+###### start the script on boot (Raspberry Pi 64bit)
+
+Make new directory
+```
+sudo mkdir /home/autodarts/.config/autostart
+```
+
+Make a new file in this directory
+```
+sudo nano /home/autodarts/.config/autostart/autostart.desktop
+```
+
+Write following in this file:
+```
+#!usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Autorun
+Type=Application
+Exec=/bin/sh /home/autodarts/Documents/scripts/autostart.sh &
+Terminal=false
+```
+
+Change Permission 
+```
+sudo chown autodarts /home/autodarts/.config/autostart/autostart.desktop
+sudo chgrp autodarts /home/autodarts/.config/autostart/autostart.desktop
+sudo chmod 744 /home/autodarts/.config/autostart/autostart.desktop
+```
+
+Now you can test it by rebooting your Pi
+
+```
+sudo reboot now
+```
