@@ -1,4 +1,5 @@
 ## guvcview Konfigurieren und beim Boot automatisch starten
+## Diese Anleitung funktioniert aktuell nur mit x32 Systemen
 
 ###### Profile generieren und speichern
 
