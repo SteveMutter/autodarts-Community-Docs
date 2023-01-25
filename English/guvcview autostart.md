@@ -1,4 +1,5 @@
 ## Configure and autostart guvcview
+## Only works on x32 System
 
 ###### Create Profiles and save them
 
