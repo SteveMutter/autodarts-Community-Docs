@@ -1,11 +1,17 @@
 ## Here you can find some Prebuild Images
 
 [x] autodarts installed
+
 [x] guvcview installed
+
 [x] VNC active
+
 [x] Startup script to start guvcview on boot and load settings from Profiles
+
 [x] Open Chromium Browser in Fullscreen mode at htts://autodarts.io
+
 [x] username/password for all Images are autodarts/autodarts
+
 
 ## Download
 
