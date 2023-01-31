@@ -12,6 +12,8 @@
 
 [x] username/password for all Images are autodarts/autodarts
 
+[X] Bluetooth is disabled
+
 
 ## Download
 
@@ -47,4 +49,38 @@ Now autodarts can be configured
 > There is an video on how to do this
 ```
 https://invidious.drivet.xyz/wQxRMKd2K6o?t=223
+```
+> activate Bluetooth again
+
+```
+sudo nano /boot/config.txt
+```
+
+> delete last column
+```
+dtoverlay=disable-bt
+```
+
+> activate the services
+```
+sudo systemctl enable hciuart
+```
+
+> and
+```
+sudo systemctl enable bluetooth.service
+```
+
+> check if service are running
+```
+hciconfig
+```
+
+> Output:
+```
+hci0:	Type: Primary  Bus: UART
+	BD Address: DC:A6:32:D8:88:59  ACL MTU: 1021:8  SCO MTU: 64:1
+	UP RUNNING 
+	RX bytes:2772 acl:0 sco:0 events:172 errors:0
+	TX bytes:5826 acl:0 sco:0 commands:150 errors:0
 ```
