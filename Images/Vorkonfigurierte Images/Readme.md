@@ -27,7 +27,10 @@ Raspberry Pi OS Desktop / Debian Bullseye / 64Bit
 https://tinyurl.com/nhh3ebd4
 ```
 
-
+Passwort für den Download
+```
+Autodarts_2023!
+```
 
 ## Benutzung des Images
 
